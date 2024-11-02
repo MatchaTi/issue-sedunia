@@ -16,4 +16,4 @@ Judul Proyek : Issue Sedunia
 #gambar 
 
 
-![Gambar1](./img/readme/Foto Diri (1).jpg)
+![Gambar1](img/readme/Foto Diri (1).jpg)
