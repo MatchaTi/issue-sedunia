@@ -12,3 +12,6 @@ Anggota Kelompok
 
 Tema Proyek : Forum Diskusi Orang Skills Issue
 Judul Proyek : Issue Sedunia
+
+#gambar
+![Gambar1](./img/readme/Foto Diri (1).jpg)
