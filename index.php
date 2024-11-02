@@ -55,6 +55,10 @@ $allPosts = getAllPosts($conn);
     ?>
     <h2 class="heading text-center mb-6">Posts</h2>
 
+    <?php if ($user['role'] == 'admin'): ?>
+        <a href="admin.php" class="admin-btn px-4 py-2 purple rounded border shadow">Back to Admin Page</a>
+    <?php endif; ?>
+
     <div class="music-container hidden p-c cream border shadow rounded-lg">
         <h2 class="font-bold mb-6">Soundboard</h2>
     </div>
