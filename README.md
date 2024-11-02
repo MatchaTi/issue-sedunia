@@ -16,4 +16,4 @@ Judul Proyek : Issue Sedunia
 #gambar 
 
 
-![Gambar1]((https://github.com/EXOGAMER007/issue-sedunia/img/readme/Foto%20Diri%20(1).jpg))
+![Gambar1](https://github.com/EXOGAMER007/issue-sedunia/img/readme/Foto%20Diri%20(1).jpg)
