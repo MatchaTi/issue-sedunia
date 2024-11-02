@@ -128,10 +128,9 @@ $post = getSinglePost($conn, $_GET['id']);
                         <img src="assets/icons/views.svg" alt="views">
                         <div><?= $post['post']['watching_counter'] ?></div>
                     </div>
-                    <div class="px-6 py-1 flex gap-1 font-medium border shadow rounded green">
+                    <button class="px-6 py-1 flex gap-1 font-medium border shadow rounded green" onclick="shareLink(<?= $post['post']['id'] ?>)">
                         <img src="assets/icons/share.svg" alt="share">
-                        <div><?= $post['post']['share_counter'] ?></div>
-                    </div>
+                    </button>
                 </div>
             </div>
         </article>
@@ -169,7 +168,7 @@ $post = getSinglePost($conn, $_GET['id']);
                             <a href="profile.php?id=<?= $comment['commenter']['id']; ?>" class="heading capitalize"><?= $comment['commenter']['username']; ?></a>
                             <p class="text-sm"><?= explode(' ', $comment['created_at'])[0]; ?></p>
                         </div>
-                        <?php if ($user['id'] == $comment['commenter']['id']): ?>
+                        <?php if ($user['id'] == $comment['commenter']['id'] && !$post['post']['isSolve']): ?>
                             <button type="button" class="relative btn-floating w-10 h-10 flex items-center justify-center light-green border shadow rounded">
                                 <img src="assets/icons/menu.svg" alt="menu">
                                 <div class="floating-action cream border shadow rounded">
@@ -189,6 +188,7 @@ $post = getSinglePost($conn, $_GET['id']);
 
     <script src="js/music.js"></script>
     <script src="js/dialog.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
