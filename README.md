@@ -36,7 +36,8 @@ Cara masuk ke website :
 ##### C. Bar Navigasi
 - Pada Bar Navigasi tombol dengan gambar rumah berfunsi untuk mengarahkan pengguna ke halaman home.
 - Untuk tombol dengan gambar kaca pembesar berguna untuk membuat browser masuk ke mode full screen seperti pada gambar berikut :
--![Halaman home full screen]()
+  
+![Halaman home full screen]()
 - Gambar note jika di tekan akan muncul kotak tambahan yang di dalam nya terdapat beberapa lagu pilihan yang bisa di putar. Berikut adalah tampilan kotak music nya :
 ![Haman home music]()
 - Lalu untuk gambar profile jika di tekan kita akan di arahkan ke halaman profile akun kita yang isi nya mengenai informasi pribadi kita seperti Foto profile, username, nama, bio dan postingan yang pernah anda post. Di halaman profile juga terdapat tombol untuk untuk LogOut dan edit profile yang mana khusus untuk edit profil akan kita jelaskan lebih rinci pada bagian berikut nya. Berikut adalah penampakan halaman profile :
