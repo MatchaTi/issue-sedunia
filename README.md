@@ -13,7 +13,7 @@ Anggota Kelompok
 Tema Proyek : Forum Diskusi Orang Skills Issue
 Judul Proyek : Issue Sedunia
 
-##gambar 
+## gambar 
 
 
 ![Gambar1](https://github.com/EXOGAMER007/issue-sedunia/blob/c7a1e6ae477adb0caa7f101a419894295544eef5/img/readme/Foto%20Diri%20(2).jpg)
