@@ -47,12 +47,12 @@ $allComments = getComments($conn);
     ?>
     <h2 class="heading text-center mb-6">Admin Dashboard</h2>
     <nav class="navbar cream shadow border rounded-full">
-        <a href="" class="logo w-12 h-12 flex items-center justify-center rounded-full">
+        <a href="index.php" class="logo w-12 h-12 flex items-center justify-center rounded-full">
             <img src="assets/icons/logo.svg" alt="logo">
         </a>
 
         <div class="navbar-options">
-            <a href="" class="home-icon w-12 h-12 flex items-center justify-center rounded-full">
+            <a href="index.php" class="home-icon w-12 h-12 flex items-center justify-center rounded-full">
                 <img src="assets/icons/home.svg" alt="home">
             </a>
             <button type="button" class="btn-fullscreen w-12 h-12 flex items-center justify-center rounded-full"
