@@ -17,7 +17,7 @@ Judul Proyek : Issue Sedunia
 
 ##### A. Registrasi dan Login
 Cara masuk ke website :
-- Buka Browser (Mozilla Firefox / Google Chrome)
+- Buka Browser (Mozilla Firefox / Google Chrome / Brave)
 - Ketik url : http://domain/login.php
 - Akan tampil seperti berikut:
   
@@ -33,7 +33,7 @@ Cara masuk ke website :
 ![Halaman home]()
 
 ##### B. Pengenalan Fitur website
-- Setelah login anda seharus nya di arahkan pada halaman home website ini seperti pada gambar di bawah :
+- Setelah login anda di arahkan pada halaman home website ini seperti pada gambar di bawah :
   
 ![Halaman home]()
 - Pada gambar di sebelum nya terdapat beberapa fitur dan tombol yang memiliki kegunaan nya masing-masing seperti pada bagian samping kiri terdapat bar navigasi yang mencakup tombol home, searching,full screen, music, profile, pengaturan dan LogOut lalu pada tengah layar terdapat juga bagian POST yang mencakup CRUD postingan dan komentar. Semua itu akan di jelaskan nanti :
@@ -41,9 +41,9 @@ Cara masuk ke website :
 ![Halaman home dengan pentunjuk]()
 ##### C. Bar Navigasi
 - Pada Bar Navigasi tombol dengan gambar rumah berfunsi untuk mengarahkan pengguna ke halaman home.
-- Untuk tombol dengan gambar kaca pembesar berguna untuk membuat browser masuk ke mode full screen seperti pada gambar berikut :
+- Untuk tombol dengan gambar kaca pembesar untuk masuk ke halaman searching:
   
-![Halaman home full screen]()
+![Halaman Searching]()
 - Gambar note jika di tekan akan muncul kotak tambahan yang di dalam nya terdapat beberapa lagu pilihan yang bisa di putar. Berikut adalah tampilan kotak music nya :
   
 ![Haman home music]()
@@ -53,9 +53,9 @@ Cara masuk ke website :
 - lalu terdapat tombol gambar gir yang jika di tekan kita akan masuk pada halaman edit profile dan sama seperti sebelum nya halaman edit profil akan di jelaskan pada bagian berikut nya. Berikut adalah penampakan halaman edit profile :
   
 ![Halaman edit profile]()
-- untuk tombol di bawah gir berfungsi untuk logout dari akun  tentu saja.
+- untuk tombol di bawah gir berfungsi untuk logout dari akun.
 ##### D. Edit profil
-- Pada halaman edit profil anda dapat melakukan pengeditan profil anda seperti menganti fullname, username, bio, password dan photo. untuk melakukan nya anda tingal mengisi data-data pada kolom edit profil sesuai dengan data yang ada ingin edit dan anda harus memasukan kata sandi anda pada "current password" langkah pengamanan dan sesudah memasukan data yang ingin di edit anda tinggal menakan tombol "update profile" untuk menyelesaikan pengeditan profil.
+- Pada halaman edit profil anda dapat melakukan pengeditan profil anda seperti menganti fullname, username, bio, password dan photo. untuk melakukan nya anda perlu mengisi data-data pada kolom edit profil sesuai dengan data yang ada ingin edit dan anda perli memasukan kata sandi anda pada "current password" langkah pengamanan dan sesudah memasukan data yang ingin di edit anda tinggal menakan tombol "update profile" untuk menyelesaikan pengeditan profil.
 - Di halaman edit profil juga terdapat beberapa tombol seperti "delete profile" yang memiliki fungsi untuk menghapus akun saat ini lalu tombol "delete photo profile" untuk menghapus gambar profile dan yang terakhir tombol "cancel" untuk membatalkan pengeditan profile.
 ##### E. Posts
 - Bagian post muncul pada halaman awal dari website dan lebih tepat nya adalah halaman home. beberapa fungsi posts antara lain adalah mengirim postingan yang dapat berupa kalimat maupun gambar, melakukan edit postingan, dan menghapus postingan. tentu saja kita juga dapat mengirim komentar tetapi bagian tersebut akan di bahas pada bagian berikut nya.
@@ -64,7 +64,7 @@ Cara masuk ke website :
 - untuk menambah postingan atau mengirim postingan anda dapat menekan sebuah kotak yang bertuliskan "Hi user! What's new?" untuk menambah postingan lalu akan muncul sebuah pop up yang berisi inputan "Category", "Title Post", "Description Post", "Photo Post" dan tombol yang bertuliskan "Delete Photo Post, "Post". Anda dapat mengisi inputan untuk melengkapi postingan lalu menambahkan gambar pada postingan anda lalu menekan tombol post untuk mengirim postingan. Tetapi jika anda sudah menambahkan sebuah gambar tetapi berubah pikiran dan tidak jadi menambahkan gambar maka anda menekan tombol "Delete Photo Post" untuk menghapus photo dalam inputan.
 
 ![Halaman home pop up tambah postingan]()
-- Untuk mengedit dapat menekan sebuah logo yang ada di postingan anda yang memiliki 3 garis lalu menekan tombol edit dan anda akan di arahkan ke halaman edit post. Untuk pengenditan hampir mirip dengan menambah postingan anda hanya perlu mengganti atau mengedit postingan lalu menekan tombol "Edit Post" untuk memperbaharui postingan.
+- Untuk mengedit dapat menekan sebuah logo yang ada di postingan anda yang memiliki 3 garis lalu menekan tombol edit dan anda akan di arahkan ke halaman edit post. Untuk pengeditan hampir mirip dengan menambah postingan anda hanya perlu mengganti atau mengedit postingan lalu menekan tombol "Edit Post" untuk memperbaharui postingan.
 
 ![Halaman Edit Post]()
 - Untuk menghapus postingan anda hanya perlu menekan logo garis 3 lalu menekan "delete" untuk menghapus postingan.
