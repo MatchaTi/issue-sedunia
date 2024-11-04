@@ -55,6 +55,10 @@ $allPosts = getAllPosts($conn);
     ?>
     <h2 class="heading text-center mb-6">Posts</h2>
 
+    <?php if ($user['role'] == 'admin'): ?>
+        <a href="admin.php" class="admin-btn px-4 py-2 purple rounded border shadow">Back to Admin Page</a>
+    <?php endif; ?>
+
     <div class="music-container hidden p-c cream border shadow rounded-lg">
         <h2 class="font-bold mb-6">Soundboard</h2>
     </div>
@@ -91,7 +95,7 @@ $allPosts = getAllPosts($conn);
                 </div>
                 <div class="mb-6">
                     <label for="title" class="heading block mb-2">Title Post</label>
-                    <input type="text" name="title" id="title" placeholder="Raana! What's new? (Max 50 characters!)" class="w-full blue p-c rounded-lg border shadow" required maxlength="50">
+                    <input type="text" name="title" id="title" placeholder="<?= $user['username'] ?>! What's new? (Max 50 characters!)" class="w-full blue p-c rounded-lg border shadow" required maxlength="50">
                 </div>
                 <div class="mb-6">
                     <label for="content" class="heading block mb-2">Description Post</label>
@@ -155,7 +159,6 @@ $allPosts = getAllPosts($conn);
                     </div>
                     <button onclick="shareLink(<?= $post['id'] ?>)" class="share-btn px-6 py-1 flex gap-1 font-medium border shadow rounded green">
                         <img src="assets/icons/share.svg" alt="share">
-                        <div><?= $post['share_counter'] ?></div>
                     </button>
                 </div>
             </div>

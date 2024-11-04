@@ -3,7 +3,9 @@ const dialog = document.querySelector(".dialog");
 const cancelBtn = document.querySelector(".cancel-post");
 
 function shareLink(id) {
-  const link = `localhost/issue-sedunia/post.php?id=${id}`;
+  const domain = window.location.origin;
+  const path = window.location.pathname;
+  const link = `${domain}${path}?id=${id}`;
   navigator.clipboard.writeText(link).then(() => alert("Link copied!"));
 }
 

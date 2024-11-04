@@ -1126,4 +1126,53 @@ function lastActivity()
 }
 
 // lastActivity();
+
+function getPosts($conn)
+{
+    $sql = "SELECT id, title FROM posts";
+    $result = $conn->query($sql);
+    $posts = [];
+
+    while ($row = $result->fetch_assoc()) {
+        $posts[] = [
+            "id" => $row['id'],
+            "title" => $row['title']
+        ];
+    }
+
+    return $posts;
+}
+
+function getUsers($conn)
+{
+    $sql = "SELECT id, username, photo FROM users WHERE role = 'user'";
+    $result = $conn->query($sql);
+    $users = [];
+
+    while ($row = $result->fetch_assoc()) {
+        $users[] = [
+            "id" => $row['id'],
+            "username" => $row['username'],
+            "photo" => $row['photo']
+        ];
+    }
+
+    return $users;
+}
+
+function getComments($conn)
+{
+    $sql = "SELECT id, content FROM comments";
+    $result = $conn->query($sql);
+    $comments = [];
+
+    while ($row = $result->fetch_assoc()) {
+        $comments[] = [
+            "id" => $row['id'],
+            "content" => $row['content']
+        ];
+    }
+
+    return $comments;
+}
 ?>
