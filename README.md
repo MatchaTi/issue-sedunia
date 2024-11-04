@@ -71,12 +71,13 @@ Cara masuk ke website :
 - Anda juga dapat membagikan postingan dengan cara menekan pesawat kertas yang ada di bawah postingan.
 ##### F. Komentar
 - Anda dapat mengirim komentar ke postingan dengan cara menekan logo paling kiri yang ada di postingan seperti di bawah ini :
+
 ![Halaman Home Tombol Komentar]()
 Setelah menakan nya mengarahkan anda ke halaman komentar lalu di bawah postingan tersebut akan muncul kota inputan yang dapat di isi untuk menulis komentar lalu mengirim nya. 
 - Anda mengedit komentar yang telah di kirim di dengan cara menekan logo garis 3 lalu menekan "edit" untuk mengedit komentar lalu memperbaharui komentar. Anda juga dapat menghapus komentar dengan cara menekan garis 3 pada komentar anda lalu menekan "Delete".
 
 ![Halaman Komentar]()
-##### G.Admin
+##### G. Admin
 - Akun admin tidak bisa di buat tetapi akan sudah ada duluan di database nya. Setelah login sebagai admin anda akan melihat perubahan pada bar navigasi. 
 
 ![Bar Navigasi Admin]()
