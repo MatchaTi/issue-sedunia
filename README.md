@@ -21,7 +21,7 @@ Cara masuk ke website :
 - Ketik url : http://domain/login.php
 - Akan tampil seperti berikut:
   
-![Halaman Login]()
+![Halaman Login](img/Manual_Book/1.png)
 - tetapi jika anda belum mempunyai akun maka anda dapat melakukan proses registasi dengan menekan tombol "Register" yang ada di bawah seperti yang ada pada gambar di bawah ini :
   
 ![Tombol Register]()
