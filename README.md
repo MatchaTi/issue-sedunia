@@ -79,11 +79,11 @@ Cara masuk ke website :
 
 - untuk menambah postingan atau mengirim postingan anda dapat menekan sebuah kotak yang bertuliskan "Hi user! What's new?" untuk menambah postingan lalu akan muncul sebuah pop up yang berisi inputan "Category", "Title Post", "Description Post", "Photo Post" dan tombol yang bertuliskan "Delete Photo Post, "Post". Anda dapat mengisi inputan untuk melengkapi postingan lalu menambahkan gambar pada postingan anda lalu menekan tombol post untuk mengirim postingan. Tetapi jika anda sudah menambahkan sebuah gambar tetapi berubah pikiran dan tidak jadi menambahkan gambar maka anda menekan tombol "Delete Photo Post" untuk menghapus photo dalam inputan.
 
-![Halaman home pop up tambah postingan]()
+![Halaman home pop up tambah postingan](img/Manual_Book/11.png)
 
 - Untuk mengedit dapat menekan sebuah logo yang ada di postingan anda yang memiliki 3 garis lalu menekan tombol edit dan anda akan di arahkan ke halaman edit post. Untuk pengeditan hampir mirip dengan menambah postingan anda hanya perlu mengganti atau mengedit postingan lalu menekan tombol "Edit Post" untuk memperbaharui postingan.
 
-![Halaman Edit Post]()
+![Halaman Edit Post](img/Manual_Book/12.png)
 
 - Untuk menghapus postingan anda hanya perlu menekan logo garis 3 lalu menekan "delete" untuk menghapus postingan.
 - Anda juga dapat membagikan postingan dengan cara menekan pesawat kertas yang ada di bawah postingan.
@@ -92,12 +92,12 @@ Cara masuk ke website :
 
 - Anda dapat mengirim komentar ke postingan dengan cara menekan logo paling kiri yang ada di postingan seperti di bawah ini :
 
-![Halaman Home Tombol Komentar]()
+![Halaman Home Tombol Komentar](img/Manual_Book/13.png)
 Setelah menakan nya mengarahkan anda ke halaman komentar lalu di bawah postingan tersebut akan muncul kota inputan yang dapat di isi untuk menulis komentar lalu mengirim nya.
 
 - Anda mengedit komentar yang telah di kirim di dengan cara menekan logo garis 3 lalu menekan "edit" untuk mengedit komentar lalu memperbaharui komentar. Anda juga dapat menghapus komentar dengan cara menekan garis 3 pada komentar anda lalu menekan "Delete".
 
-![Halaman Komentar]()
+![Halaman Komentar](img/Manual_Book/14.png)
 
 ##### G. Admin
 
