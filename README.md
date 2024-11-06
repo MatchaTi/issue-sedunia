@@ -18,7 +18,7 @@ Judul Proyek : Issue Sedunia
 Cara masuk ke website :
 
 - Buka Browser (Mozilla Firefox / Google Chrome / Brave)
-- Ketik url : http://matcha.great-site.net/issue-sedunia/
+- Ketik url : https://matcha.great-site.net/issue-sedunia/
 - Akan tampil seperti berikut:
 
 ![Halaman Login](img/Manual_Book/1.png)
