@@ -105,7 +105,7 @@ $allComments = getComments($conn);
         <?php endforeach; ?>
     </section>
     <section class="content-posts py-2 border shadow rounded-lg hidden">
-        <h2 class="heading text-center mb-6">Users</h2>
+        <h2 class="heading text-center mb-6">Posts</h2>
         <?php foreach ($allPosts as $post): ?>
             <div class="px-4 py-4 flex items-center justify-between border-b">
                 <div class="flex items-center gap-3">
