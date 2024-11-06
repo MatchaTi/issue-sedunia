@@ -103,16 +103,16 @@ Setelah menakan nya mengarahkan anda ke halaman komentar lalu di bawah postingan
 
 - Akun admin tidak bisa di buat tetapi akan sudah ada duluan di database nya. Setelah login sebagai admin anda akan melihat perubahan pada bar navigasi.
 
-![Bar Navigasi Admin]()
+![Bar Navigasi Admin](img/Manual_Book/15.png)
 
 - Logo profil pada Bar Navigasi berisi akun-akun user yang mana dapat di hapus dengan menekan tombol "Delete" di samping akun yang ingin di hapus.
 
-![Halaman Users Admin]()
+![Halaman Users Admin](img/Manual_Book/16.png)
 
 - Logo yang mirip windows berisi postingan para users yang dapat di hapus seperti pada halaman profil sebelum nya.
 
-![Halaman Postingan Admin]()
+![Halaman Postingan Admin](img/Manual_Book/17.png)
 
 - Logo terakhir dan paling bawa berisi komentar-komentar para users yang dapat di hapus seperti pada halaman profil dan postingan sebelum nya.
 
-![Halaman Komentar Admin]()
+![Halaman Komentar Admin](img/Manual_Book/18.png)
